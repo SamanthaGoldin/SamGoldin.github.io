@@ -1,0 +1,16 @@
+
+/* start with <link rel= “stylesheet” href= ”/css/LINK TO SHEET”> 
+class ="" , call it with a . 
+id ="", call with a #
+
+
+*/
+p {
+color: blue; /* rgba (100,100,100,100)  or #FFFFFF */
+font-family:Georgia, 'Times New Roman', Times, serif;
+background-color: purple;
+font-size : 150%;
+font-style: italic;
+font-weight: 900;
+}
+
