@@ -15,7 +15,6 @@ grid-template-rows: 30px auto auto;
 grid-row-gap: 1000px;
 width: 100%;
 position:fixed;
-margin-left: 20px;
 }
 
 .overlay-score{
@@ -27,6 +26,7 @@ padding: 10px;
 height: 100px;
 text-align: center;
 font-family: Impact;
+margin-left: 50px;
 }
 
 .overlay-team{
