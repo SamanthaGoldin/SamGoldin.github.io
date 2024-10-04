@@ -1,0 +1,49 @@
+
+body{
+background-image: url("../img/CUBuffs.jpg");
+background-position: center top;
+background-repeat: no-repeat;
+display:grid;
+height: 100%;
+width: 100%;
+}
+
+.content-boxes{
+display:grid;
+grid-template-columns: 25% 25% 25% 25%;
+grid-template-rows: 30px auto auto;
+grid-row-gap: 1000px;
+width: 100%;
+position:fixed;
+}
+
+.overlay-score{
+grid-column-start:2;
+grid-row-start:2;
+position: fixed;
+background-color: #FFD700;
+padding: 10px;
+height: 100px;
+text-align: center;
+font-family: Impact;
+}
+
+.overlay-team{
+grid-column-start: 5;
+grid-row-start: 1;
+
+position:fixed;
+background-image: url("../img/CUvsCSU.jpg");
+background-position: center;
+background-color: black;
+background-size: 200px 100px;
+background-repeat: no-repeat;
+
+padding: 10px;
+height: 100px;
+width: 200px;
+right: 100px;
+top: 8px;
+margin-left: 10px;
+}
+
