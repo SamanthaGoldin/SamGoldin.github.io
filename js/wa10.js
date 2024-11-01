@@ -36,13 +36,9 @@ function generateStory() {
 
   // If custom name is entered, replace "Captain Quackers" with custom name
   if (customName.value !== '') {
-    newStory = newStory.replace('Captain Quackers', customName.value);
+    newStory = newStory.replace('Onlookers', customName.value);
   }
 
-  // Convert units to UK if checked
-  if (ukCheckbox.checked) {
-    newStory = newStory.replace('gliding just above the waves', 'soaring over the waves');
-  }
 
   // Display the story in the div and make it visible
   storyDiv.textContent = newStory;
