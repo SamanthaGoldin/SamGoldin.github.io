@@ -5,17 +5,6 @@ const button = document.querySelector('.dark');
 // Array of image paths
 const imagePaths = ['../img/Bandimere2.png', '../img/Bandimere3.png', '../img/Bandimere4.png', '../img/Bandimere5.png'];
 
-// Generate thumbnails
-imagePaths.forEach((path) => {
-    const img = document.createElement('img');
-    img.src = path;
-    img.alt = 'Thumbnail';
-    img.style.width = '200px';  // Set the width inline
-    img.style.height = 'auto';  // Maintain aspect ratio
-    img.onclick = () => displayedImage.src = path;
-    thumbBar.appendChild(img);
-});
-
 // Toggle dark/light mode
 function toggleDarkMode() {
     if (button.classList.contains('dark')) {
@@ -26,3 +15,15 @@ function toggleDarkMode() {
         document.body.style.backgroundColor = 'white';
     }
 }
+// Generate thumbnails
+imagePaths.forEach((path) => {
+    const img = document.createElement('img');
+    img.src = path;
+    img.alt = 'Thumbnail';
+    img.style.width = '193px';  // Set the width inline
+    img.style.height = 'auto';  // Maintain aspect ratio
+    img.onclick = () => displayedImage.src = path;
+    thumbBar.appendChild(img);
+})
+
+
