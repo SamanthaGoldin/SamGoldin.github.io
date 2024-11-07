@@ -3,7 +3,7 @@ const thumbBar = document.querySelector('.thumb-bar');
 const button = document.querySelector('.dark');
 
 // Array of image paths
-const imagePaths = ['../img/Bandimere2.png', '../img/Bandimere3.png', '../img/Bandimere4.png', '../img/Bandimere5.png'];
+const imagePaths = ['../img/Bandimere1.png', '../img/Bandimere3.png', '../img/Bandimere4.png', '../img/Bandimere5.png'];
 
 // Toggle dark/light mode
 function toggleDarkMode() {
