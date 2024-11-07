@@ -1,12 +1,11 @@
 
 console.log (tellFortune("2","Casey", "location", "jobTitle"));
 
-let paragraph = "";
-
 function tellFortune (numChildren, partnerName, location, jobTitle){
   
+console.log (numChildren, partnerName, location, jobTitle)
 
-
+let numChildren = "";
 
 }
 
