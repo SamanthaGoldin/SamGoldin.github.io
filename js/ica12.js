@@ -20,7 +20,7 @@ function displayRes(jokeText) {
     document.getElementById('output').textContent = jokeText;
 }
 
-document.getElementById('fetchJokeBtn').addEventListener('click', () => {
+document.getElementById('FetchJoke').addEventListener('click', () => {
     console.log('Button clicked');
     getJoke();
 });
