@@ -36,5 +36,4 @@ function fetchData(){
 }
 
 fetchData();
-
 document.getElementById("generate").addEventListener("click", e => {fetchData();});
