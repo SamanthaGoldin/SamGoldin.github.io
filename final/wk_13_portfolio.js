@@ -1,31 +1,54 @@
 let proj;
 fetch('projects.json')
-.then(response => {
-    return response.json();
-}).then (project => {
-    console.log(projects);
-    proj = projects;
-    parseData(projects);
-}).catch(err =>{
-    console.log(`error ${err}`);
-})
+  .then(response => response.json())
+  .then(data => {
+    console.log(data); // Corrected console log
+    proj = data;       // Now assigning 'data' to 'proj'
+    parseData(data);
+  })
+  .catch(err => {
+    console.log(`Error: ${err}`);
+  });
 
 
-function parseData(data){
+
+/*function parseData(data){
     for(let i=0; i<data.projects.length; i ++){
-    document.getElementById("projects").innerHTML += `<a href="../final/${data.projects[i].subdomain}.html>
+    document.getElementById("projects").innerHTML += `
+        <a href="../final/${data.projects[i].subdomain}.html">
         <div class="row project" id="${data.projects[i].subdomain}">
-        <div class= "projimg"><img src="img/Bandimere (${i+1}).png"></div>
-        <div class= "description"><h2>${data.projects[i].name}</h2><p class= "subtitle">${data.projects[i].subtitle}</p>
-        <p>${data.projects[i].abtract}</p></div></div></a>`;
+        <div class= "projimg">
+        <img src="..final/images/Bandimere1(${i+1}).png">
+        </div>
+        <div class= "description">
+        <h2>${data.projects[i].name}</h2>
+        <p class= "subtitle">${data.projects[i].subtitle}</p>
+        <p>${data.projects[i].abstract}</p>
+        </div>
+        </div>
+        </a>`;
         }
     }
-
-    for(button of document.querySelectorAll("#buttons button")){
+*/
+function parseData(data) {
+    for (let i = 0; i < data.projects.length; i++) {
+      document.getElementById("projects").innerHTML += `
+        <div class="project-card" id="${data.projects[i].subdomain}">
+          <img src="img/${data.projects[i].mainimg}" alt="${data.projects[i].name}">
+          <div class="project-info">
+            <h3>${data.projects[i].name}</h3>
+            <p class="subtitle">${data.projects[i].subtitle}</p>
+            <p>${data.projects[i].abstract}</p>
+          </div>
+        </div>`;
+    }
+  }
+  
+    for(let button of document.querySelectorAll("#buttons button")){
         button.addEventListener("click", e=> {
             console.log(e.target.value);
             sortProjects(e.target.value);
-        })
+        });
     }
 
     function sortProjects(button){
