@@ -9,7 +9,8 @@
 			"mainimg": "tapart.jpg",
 			"images": ["tapart.jpg", "mario and luigi cropped.PNG", "draw 1.PNG", "dance actually.PNG", "robot marbles.PNG"]
 			
-	},{"name": "Advertising",
+	},{
+            "name": "Advertising",
 			"subdomain": "advertising",
 			"category": ["tangible", "networked", "participatory", "toolkit", "shape_change", "publication", "award", "support"],
 			"subtitle": "A Haptic Design Toolkit for Out-of-lab Exploration of Emotional Robotic Touch",
