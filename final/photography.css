@@ -1,0 +1,35 @@
+/*back arrow*/
+.back-arrow {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: transparent;
+    color: #000; 
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .back-arrow:hover {
+    background-color: #f0f0f0; /* Adjust hover effect as needed */
+  }
+
+h1{
+    color: #eb8aa2;
+    text-align: center;
+}
+
+ .gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thumb-bar img {
+    width: 50px;
+    height: auto;
+    margin: 0 5px;
+    cursor: pointer;
+    align-items: center;
+}

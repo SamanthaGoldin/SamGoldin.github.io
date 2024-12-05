@@ -1,0 +1,81 @@
+/*back arrow*/
+.back-arrow {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: transparent;
+    color: #000; 
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .back-arrow:hover {
+    background-color: #f0f0f0; /* Adjust hover effect as needed */
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 5px;
+    margin-top: 100px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+
+.text-section {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    margin: 20px 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.slideshow-container {
+    position: relative;
+    margin: auto;
+    max-width: 80%;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.slide {
+    display: none;
+}
+
+.slide img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Arrows */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+    user-select: none;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+  

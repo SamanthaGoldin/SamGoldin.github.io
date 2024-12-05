@@ -6,24 +6,27 @@
 			"abstract": "For two years, I captured the adrenaline and energy of Bandimere Speedway, a premier dragstrip in Morrison, Colorado. My work focused on documenting high-speed action, vibrant car culture, and the excitement of race-day moments, blending precision with creativity to bring the intensity of the track to life through my lens.",
 			"description": ["In Human-Computer Interaction, children have been active participants in co-designing future technologies for other children. Most studies in co-design (prior to COVID-19), focused on co-located in-person sessions that involved physical techniques, such as hand-drawn and crafted prototypes, acting out scenarios, and playing movement games to generate ideas. However, these physically proximal activities are not possible online. This lack of physical engagement creates barriers and leaves children feeling less creative and engaged in the remote co-design process.", "To workaround this situation in which children are co-designing online, we have worked with KidsTeam UW to create another option for remote co-design: tangible interfaces for remote co-design. Our project, Together Apart, uses toio tabletop robots and a tablet interface to add a tangible dimension to online co-design. When using our system, our child design partners acted in an engaged manner not typically seen in remote settings.", "While working together online, KidsTeam UW children used our toio robotics system to design games, swarm robot expressions, and create physical art together. For our workshop contribution, we will showcase some of our work-in-progress and develop potential collaborations for tangible online co-design. In the future we plan to move from a fully remote environment to a hybrid environment for co-design. We will engage in conversations with KidsTeam UW about how tangible interfaces for hybrid environments differ from fully online contexts."],
 			"mainimg": "../final/images/SamPic1.jpg",
+			"category": ["photography"],
 			"images": ["tapart.jpg", "mario and luigi cropped.PNG", "draw 1.PNG", "dance actually.PNG", "robot marbles.PNG"]
 			
 	},{
             "name": "Queer AF",
 			"subdomain": "advertising",
-			"subtitle": "Redefining Love: A Campaign for Queer Weddings in Colorado",
+			"subtitle": "A Campaign for Queer Weddings in Colorado",
 			"abstract": "As part of my Capstone class, I developed a comprehensive campaign for an unconventional wedding showcase designed for queer couples in Colorado. This project allowed me to blend strategic planning with creative execution, celebrating diversity and inclusivity in the wedding industry. From concept development to final deliverables, I aimed to create a campaign that resonated with the LGBTQ+ community and redefined traditional wedding narratives.",
 			"description": ["Psychological research has found that humans convey specific emotions (e.g., anger, fear, happiness) using social touch patterns, like squeezing a friend's arm when we are afraid. Emotional haptics, then, are an opportunity to create more enriching and intimate interactions with technology. However, designing emotional haptics systems requires a relatively high degree of technical skill. To overcome this challenge and make emotional haptics an accessible 'design canvas,' we created TactorBots."
 			, "TactorBots is a haptic toolkit to create emotional robotic touch. It contains eight plug-and-play wearable tactor modules that render a series of social gestures with servo motors. The associated web GUI allows easy control, modification, and storage of tactile patterns to support fast prototyping. As a result, we remove the need for hardware design and programming, enabling designers to try out various tactile sensations, and create at the boundary between touch and emotion."],
-			"mainimg": "tbots_cover.png",
+			"mainimg": "../final/images/SamPic1.jpg",
+			"category": ["advertising"],
 			"images": ["tbots_cover.png"]
 	},{
 			"name": "Bond University",
 			"subdomain": "design",
-			"subtitle": "Branding the Outdoors: Inspiring Adventure and Community",
+			"subtitle": "Branding the Outdoors",
 			"abstract": "While studying abroad in Australia, I developed branding materials for my host university’s outdoor club. The project focused on creating designs that informed current members, boosted retention, and encouraged a deeper appreciation for the outdoors. Through this initiative, I combined my design and strategic communication skills to foster a sense of community and inspire adventure among club members.",
 			"description": ["Sensory extensions enhance our awareness by transforming variations in stimuli normally undetectable by human senses into perceivable outputs. Similarly, interactive simulations for learning promote an understanding of abstract phenomena. Combining sensory extension devices with interactive simulations gives users the novel opportunity to connect their sensory experiences in the physical world to computer-simulated concepts. We explore this opportunity by designing a suite of wearable sensory extension devices that interface with a uniquely inclusive PhET Simulation, Ratio and Proportion. In this simulation, two hands can be moved on-screen to various values, representing different mathematical ratios. Users explore changing hand heights to find and maintain ratios through visual and auditory feedback. Our sensory extension devices translate force, distance, sound frequency, and magnetic field strength to quantitative values in order to control individual hands in the computer simulation. This paper describes the design of the devices and our analysis of feedback from 23 high-school aged youth who used our designs to interact with the Ratio and Proportion."],
 			"mainimg": "sensoryextension_cover.jpg",
+			"category": ["design"],
 			"images": ["sensoryextension_cover.jpg", "sensory_extension_render.png", "using_se.jpg"]
 		}	
 		]

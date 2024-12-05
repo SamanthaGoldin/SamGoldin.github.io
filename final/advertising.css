@@ -1,0 +1,16 @@
+/*back arrow*/
+.back-arrow {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: transparent;
+    color: #000; 
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .back-arrow:hover {
+    background-color: #f0f0f0; /* Adjust hover effect as needed */
+  }

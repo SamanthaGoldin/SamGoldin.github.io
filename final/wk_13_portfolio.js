@@ -2,8 +2,8 @@ let proj;
 fetch('projects.json')
   .then(response => response.json())
   .then(data => {
-    console.log(data); // Corrected console log
-    proj = data;       // Now assigning 'data' to 'proj'
+    console.log(data); 
+    proj = data;       
     parseData(data);
   })
   .catch(err => {
@@ -11,8 +11,50 @@ fetch('projects.json')
   });
 
 
+  function parseData(data) {
+    for (let i = 0; i < data.projects.length; i++) {
+        document.getElementById("projects").innerHTML += `
+            <a href="../final/${data.projects[i].subdomain}.html" class="project-link">
+                <div class="project-card" id="${data.projects[i].subdomain}">
+                    <img src="img/${data.projects[i].mainimg}" alt="${data.projects[i].name}">
+                    <div class="project-info">
+                        <h3>${data.projects[i].name}</h3>
+                        <p class="subtitle">${data.projects[i].subtitle}</p>
+                        <p>${data.projects[i].abstract}</p>
+                    </div>
+                </div>
+            </a>`;
+    }
+}
+  
+    for(let button of document.querySelectorAll("#buttons button")){
+        button.addEventListener("click", e=> {
+            console.log(e.target.value);
+            sortProjects(e.target.value);
+        });
+    }
 
-/*function parseData(data){
+    function sortProjects(button) {
+      const allProjects = document.querySelectorAll('.project-card');
+      
+      // Show all projects if "all" is selected
+      if (button === "all") {
+          allProjects.forEach(project => project.style.display = "flex");
+      } else {
+          allProjects.forEach(project => {
+              const projectCategory = proj.projects.find(p => p.subdomain === project.id).category;
+              if (projectCategory.includes(button)) {
+                  project.style.display = "flex";
+              } else {
+                  project.style.display = "none";
+              }
+          });
+      }
+  }
+  
+
+
+    /*function parseData(data){
     for(let i=0; i<data.projects.length; i ++){
     document.getElementById("projects").innerHTML += `
         <a href="../final/${data.projects[i].subdomain}.html">
@@ -30,41 +72,3 @@ fetch('projects.json')
         }
     }
 */
-function parseData(data) {
-    for (let i = 0; i < data.projects.length; i++) {
-      document.getElementById("projects").innerHTML += `
-        <div class="project-card" id="${data.projects[i].subdomain}">
-          <img src="img/${data.projects[i].mainimg}" alt="${data.projects[i].name}">
-          <div class="project-info">
-            <h3>${data.projects[i].name}</h3>
-            <p class="subtitle">${data.projects[i].subtitle}</p>
-            <p>${data.projects[i].abstract}</p>
-          </div>
-        </div>`;
-    }
-  }
-  
-    for(let button of document.querySelectorAll("#buttons button")){
-        button.addEventListener("click", e=> {
-            console.log(e.target.value);
-            sortProjects(e.target.value);
-        });
-    }
-
-    function sortProjects(button){
-        if(button == "clear"){
-            for(i=0; i<proj.projects.length; i++){
-                document.getElementById(proj.projects[i].subdomain).style.display = "flex";
-            }
-        }else if(button != undefined){
-           for(i=0; i<proj.projects.length;i++){
-                if(proj.projects[i].category.includes(button) == true){
-                    document.getElementById(proj.projects[i].subdomain).style.display = "flex";
-                }else{
-                    document.getElementById(proj.projects[i].subdomain).style.display = "none";
-                }
-           }
-        }else{
-            console.log("error, button value is undefined");
-        }
-    }
