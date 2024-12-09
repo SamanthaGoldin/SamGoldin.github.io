@@ -1,16 +1,79 @@
-/*back arrow*/
+
 .back-arrow {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    background-color: transparent;
-    color: #000; 
-    font-size: 18px;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 5px;
-  }
-  
-  .back-arrow:hover {
-    background-color: #f0f0f0; /* Adjust hover effect as needed */
-  }
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: transparent;
+  color: #000; 
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.back-arrow:hover {
+  background-color: #f0f0f0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 5px;
+  margin-top: 100px;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+
+
+.text-section {
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  margin: 20px 10%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+}
+
+
+/* Style the navigation arrows */
+.slide-arrow {
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: white; 
+  font-size: 2rem; 
+  border: none; 
+  padding: 10px;  
+  position: absolute;
+  top: 50%;  
+}
+
+/* Position the left arrow on the left */
+.slide-arrow:first-of-type {
+  left: 30px;  
+}
+
+/* Position the right arrow on the right */
+.slide-arrow:last-of-type {
+  right: 30px; 
+}
+
+/* Add hover effect */
+.slide-arrow:hover {
+  background-color: rgba(0, 0, 0, 0.8);  /* Darken on hover */
+}
+
+
+/* Make images inside the slides smaller */
+.slideshow-container .slide img {
+  width: 80%;         
+  max-width: 600px;   
+  height: auto;       
+  margin: 0 auto;   
+  display: block;   
+}
