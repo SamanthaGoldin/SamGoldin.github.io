@@ -5,7 +5,8 @@
   
   h1{
     font-size: 50px;
-    color: pink;
+    color: #131DAF;
+    
   }
 
   body {
@@ -129,8 +130,7 @@
 
 .project-card:hover {
     transform: scale(1.05);
-    background-color: #fdfeff;
-    color: #131DAF;
+    background-color:  #7DB6F7;
 }
 
   

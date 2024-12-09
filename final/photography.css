@@ -1,9 +1,13 @@
+body{
+  background-color: #FFF9EE;
+}
+
 .back-arrow {
     position: fixed;
     top: 20px;
     left: 20px;
-    background-color: transparent;
-    color: #000; 
+    background-color: white;
+    color:#131DAF;
     font-size: 18px;
     text-decoration: none;
     padding: 10px;
@@ -31,8 +35,10 @@
 .text-section {
   padding: 20px;
   text-align: center;
-  background-color: white;
+  background-color:#131DAF;
+  color: #FFF9EE;
   margin: 20px 10%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  font-family: Arial Bold';
 }
