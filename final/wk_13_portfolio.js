@@ -1,5 +1,5 @@
 let proj;
-fetch('projects.json')
+fetch('../final/projects.json')
   .then(response => response.json())
   .then(data => {
     console.log(data); 
@@ -16,7 +16,7 @@ fetch('projects.json')
         document.getElementById("projects").innerHTML += `
             <a href="../final/${data.projects[i].subdomain}.html" class="project-link">
                 <div class="project-card" id="${data.projects[i].subdomain}">
-                    <img src="../final/images/${data.projects[i].mainimg}" alt="${data.projects[i].name}">
+                    <img src="${data.projects[i].mainimg}" alt="${data.projects[i].name}">
                     <div class="project-info">
                         <h3>${data.projects[i].name}</h3>
                         <p class="subtitle">${data.projects[i].subtitle}</p>

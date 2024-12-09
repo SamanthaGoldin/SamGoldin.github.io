@@ -3,9 +3,15 @@
     box-sizing: border-box;
   }
   
+  h1{
+    font-size: 50px;
+    color: pink;
+  }
+
   body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #FFF9EE;
   }
   
   /* About Section */
@@ -14,7 +20,8 @@
     align-items: center;
     justify-content: center;
     padding: 40px;
-    background-color: #f5f5f5;
+    background-color: #131DAF;
+    color: #FFF9EE;
     border-radius: 8px;
     margin-top: 50px;
   }
@@ -50,8 +57,8 @@
   }
   
   .filter-buttons button {
-    background-color: #0077b6;
-    color: white;
+    background-color: #131DAF;
+    color:#FFF9EE;
     border: none;
     padding: 10px 20px;
     margin: 0 5px;
@@ -61,7 +68,7 @@
   }
   
   .filter-buttons button:hover {
-    background-color: #005f87;
+    background-color: #7DB6F7;
   }
   
   /* Projects Section */
@@ -74,9 +81,9 @@
   
   /* Project Cards */
   .project-card {
-    background-color: white;
+    background-color: #131DAF;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px grey;
     overflow: hidden;
     width: 100%;
     max-width: 700px;  /* Increased max-width for wider cards */
@@ -95,21 +102,19 @@
   
   .project-card .project-info {
     padding: 15px;
+    color: #FFF9EE;
   }
   
   .project-card h3 {
     font-size: 1.5em;
     margin-bottom: 10px;
+    color:#FFF9EE;
   }
   
   .project-card p {
     font-size: 1em;
     line-height: 1.5;
-    color: #555;
-  }
-  
-  .project-card:hover {
-    transform: scale(1.05);
+    color:#FFF9EE;
   }
 
   .project-link {
@@ -124,7 +129,8 @@
 
 .project-card:hover {
     transform: scale(1.05);
-    background-color: #f5f5f5; /* Optional hover effect */
+    background-color: #fdfeff;
+    color: #131DAF;
 }
 
   

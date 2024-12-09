@@ -4,7 +4,7 @@
 			"subdomain": "photography",
 			"subtitle": "Capturing the Thrill of Speed ",
 			"abstract": "For two years, I captured the adrenaline and energy of Bandimere Speedway, a premier dragstrip in Morrison, Colorado. My work focused on documenting high-speed action, vibrant car culture, and the excitement of race-day moments, blending precision with creativity to bring the intensity of the track to life through my lens.",
-			"mainimg": "/final/images/Bandimere1.png",
+			"mainimg": "../final/images/Photography.jpg",
 			"category": ["photography"],
 			"images": ["tapart.jpg", "mario and luigi cropped.PNG", "draw 1.PNG", "dance actually.PNG", "robot marbles.PNG"]
 			
@@ -13,7 +13,7 @@
 			"subdomain": "advertising",
 			"subtitle": "A Campaign for Queer Weddings in Colorado",
 			"abstract": "As part of my Capstone class, I developed a comprehensive campaign for an unconventional wedding showcase designed for queer couples in Colorado. This project allowed me to blend strategic planning with creative execution, celebrating diversity and inclusivity in the wedding industry. From concept development to final deliverables, I aimed to create a campaign that resonated with the LGBTQ+ community and redefined traditional wedding narratives.",
-			"mainimg": "/final/images/QueerAF5.png",
+			"mainimg": "../final/images/QueerAF.jpg",
 			"category": ["advertising"],
 			"images": [
 				"../final/images/QueerAF1.png",
@@ -26,7 +26,7 @@
 			"subdomain": "design",
 			"subtitle": "Branding the Outdoors",
 			"abstract": "While studying abroad in Australia, I developed branding materials for my host university’s outdoor club. The project focused on creating designs that informed current members, boosted retention, and encouraged a deeper appreciation for the outdoors. Through this initiative, I combined my design and strategic communication skills to foster a sense of community and inspire adventure among club members.",
-			"mainimg": "/final/images/Brochure2.png",
+			"mainimg": "../final/images/BondUniversity.jpg",
 			"category": ["design"],
 			"images": [
 				"../final/images/Brochure1.png",
