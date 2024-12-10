@@ -1,12 +1,13 @@
 /* General Styling */
 * {
     box-sizing: border-box;
+    font-family: 'Trebuchet MS';
   }
   
   h1{
     font-size: 50px;
     color: #131DAF;
-    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
   body {
@@ -29,7 +30,7 @@
   
   .about-img {
     width: 200px;
-    height: 200px;
+    height: 300px;
     border-radius: 50%;
     margin-right: 20px;
     object-fit: cover;
@@ -53,8 +54,8 @@
   .filter-buttons {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
-    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
   
   .filter-buttons button {
@@ -76,7 +77,7 @@
   #projects {
     display: flex;
     flex-direction: column;
-    margin: 10vh 20vw;
+    margin: 3vh 20vw;
     justify-content: center;
   }
   
@@ -157,3 +158,36 @@
     }
   }
   
+
+  .site-footer {
+    background-color: #131DAF;
+    padding: 20px;
+    text-align: center;
+    border-top: 3px solid #7DB6F7;
+
+}
+
+.footer-content p {
+    font-family: 'Trebuchet MS';
+    font-size: 16px;
+    margin: 0 0 10px;
+    color: #FFF9EE;
+}
+
+.contact-button, .linkedin-button {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    background-color: #FFF9EE; 
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover, .linkedin-button:hover {
+    background-color: #7DB6F7;
+    color:black;
+}
+

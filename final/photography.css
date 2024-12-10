@@ -1,5 +1,6 @@
 body{
   background-color: #FFF9EE;
+  font-family: 'Trebuchet MS';
 }
 
 .back-arrow {
@@ -38,7 +39,12 @@ body{
   background-color:#131DAF;
   color: #FFF9EE;
   margin: 20px 10%;
+  margin-top: 100px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  font-family: Arial Bold';
+}
+
+a {
+  color: inherit; /* Matches the text color of the surrounding content */
+  text-decoration: underline;
 }
