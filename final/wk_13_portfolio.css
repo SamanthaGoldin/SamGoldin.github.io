@@ -4,12 +4,19 @@
     font-family: 'Trebuchet MS';
   }
   
-  .title-image{
-    max-width: 400px; 
-    max-height: 200px; 
-    margin-left: 30%;
-    object-fit: cover;
-  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+img {
+    max-width: 50%; /* Adjust as needed */
+    height: auto;
+    margin-bottom: 1px;
+}
+
 
   body {
     margin: 0;
