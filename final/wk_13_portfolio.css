@@ -5,7 +5,7 @@
   }
   
   .title-image{
-    max-width: 200%; 
+    max-width: 400px; 
     max-height: 200px; 
     margin-left: 30%;
     object-fit: cover;
