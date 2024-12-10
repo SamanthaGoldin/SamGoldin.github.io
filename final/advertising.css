@@ -17,6 +17,7 @@
 
 body {
   font-family: 'Trebuchet MS';
+  font-size: 1.2em;
   margin: 5px;
   margin-top: 100px;
   padding: 0;
@@ -49,7 +50,7 @@ a {
 
 /* Style the navigation arrows */
 .slide-arrow {
-  background-color: rgba(0, 0, 0, 0.5); 
+  background-color: #131DAF;
   color: white; 
   font-size: 2rem; 
   border: none; 
@@ -60,17 +61,17 @@ a {
 
 /* Position the left arrow on the left */
 .slide-arrow:first-of-type {
-  left: 30px;  
+  left: 10px;  
 }
 
 /* Position the right arrow on the right */
 .slide-arrow:last-of-type {
-  right: 30px; 
+  right: 10px; 
 }
 
 /* Add hover effect */
 .slide-arrow:hover {
-  background-color: rgba(0, 0, 0, 0.8);  /* Darken on hover */
+  background-color: #7DB6F7; 
 }
 
 
