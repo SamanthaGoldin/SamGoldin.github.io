@@ -8,7 +8,9 @@
     font-size: 50px;
     color: #131DAF;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
+    text-align: center;
+}
+
 
   body {
     margin: 0;
