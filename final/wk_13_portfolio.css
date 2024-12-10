@@ -5,9 +5,10 @@
   }
   
   .title-image{
-    max-width: 800%; 
-    max-height: 300px; 
-    margin-left: 25%;
+    max-width: 200%; 
+    max-height: 200px; 
+    margin-left: 30%;
+    object-fit: cover;
   }
 
   body {
