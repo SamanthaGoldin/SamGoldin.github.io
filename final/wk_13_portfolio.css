@@ -8,17 +8,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 20vh; 
-    max-width: 100%; 
-    margin: 0 auto; 
+    min-height: 60vh; 
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
 }
 
 .image-container img {
-    max-width: 80%;
-    min-height: 5vh; 
+    max-width: 50%; 
     height: auto;
-    object-fit: contain; 
+    object-fit: contain;
 }
+
 
   body {
     margin: 0;
