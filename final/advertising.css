@@ -43,14 +43,14 @@ a {
 
 .slideshow-container {
   position: relative;
-  max-width: 100%;
+  max-width: 80%;
   margin: auto;
 }
 
 
 /* Style the navigation arrows */
 .slide-arrow {
-  background-color: #131DAF;
+  background-color:#131DAF; 
   color: white; 
   font-size: 2rem; 
   border: none; 
@@ -61,12 +61,12 @@ a {
 
 /* Position the left arrow on the left */
 .slide-arrow:first-of-type {
-  left: 10px;  
+  left: 200px;  
 }
 
 /* Position the right arrow on the right */
 .slide-arrow:last-of-type {
-  right: 10px; 
+  right: 200px; 
 }
 
 /* Add hover effect */
